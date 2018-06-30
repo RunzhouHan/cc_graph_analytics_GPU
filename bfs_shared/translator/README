@@ -1,0 +1,12 @@
+/**
+copyright by:
+George Washington University
+Hao Howie Huang
+howie@gwu.edu
+**/
+
+Translate the edge list format raw graph to binary csr format graph.
+You need to run both the txt_to_bin_fw_int.cpp and txt_to_bin_bw_int.cpp for the same graph.
+txt_to_bin_fw_int.cpp is used to extract the forward csr (out-edge) and the other one is for backward csr (in-edge).
+Ignore the first lines start with '%'.
+print first 64 line as verification.
